@@ -67,6 +67,7 @@
 		1BB9D35918FBFEF300568286 /* testCaptionTop.srt in Resources */ = {isa = PBXBuildFile; fileRef = 1BB9D35818FBFEF300568286 /* testCaptionTop.srt */; };
 		1BB9D35A18FBFEF400568286 /* testCaptionTop.srt in Resources */ = {isa = PBXBuildFile; fileRef = 1BB9D35818FBFEF300568286 /* testCaptionTop.srt */; };
 		1BF1CCDB1903A8660006FBC8 /* DemoRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1CCDA1903A8660006FBC8 /* DemoRootViewController.m */; };
+		A3832F271C0468F300489D5F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3832F261C0468F300489D5F /* Launch Screen.storyboard */; };
 		D1C3D9DF54424BFB8D408C64 /* libPods-VKVideoPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 150BEB98AFEA4FF199BA4AA6 /* libPods-VKVideoPlayerTests.a */; };
 		F3E900D01B2823910057C484 /* SampleVideo_640x360_1mb.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F3E900CF1B2823890057C484 /* SampleVideo_640x360_1mb.mp4 */; };
 /* End PBXBuildFile section */
@@ -158,6 +159,7 @@
 		1BF1CCDA1903A8660006FBC8 /* DemoRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRootViewController.m; sourceTree = "<group>"; };
 		95C1FFB45565AC5E0DF042CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A0E6BE2DABFD07EF5799E756 /* Pods-VKVideoPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVideoPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKVideoPlayerTests/Pods-VKVideoPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3832F261C0468F300489D5F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D1D13B7470C2E5F01C8FCC17 /* Pods-VKVideoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVideoPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKVideoPlayerTests/Pods-VKVideoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		D8BE0CD25C3C24CCFFAA824A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E900CF1B2823890057C484 /* SampleVideo_640x360_1mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo_640x360_1mb.mp4; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 				1B1848D018F3D8E50020F2EE /* Extensions */,
 				1BB6AE3118EE9FFE00767FA3 /* Libs */,
 				1BB6AE2C18EE9A8000767FA3 /* Config */,
+				A3832F261C0468F300489D5F /* Launch Screen.storyboard */,
 			);
 			name = Classes;
 			path = VKVideoPlayer;
@@ -504,6 +507,7 @@
 				1BA61FCA18FD231D000DDB94 /* VKVideoPlayer_pause_big.png in Resources */,
 				1BA61FD518FD231D000DDB94 /* VKVideoPlayer_zoom_in@2x.png in Resources */,
 				1BA61FC818FD231D000DDB94 /* VKVideoPlayer_next.png in Resources */,
+				A3832F271C0468F300489D5F /* Launch Screen.storyboard in Resources */,
 				1BA61FC518FD231D000DDB94 /* VKVideoPlayer_close@2x.png in Resources */,
 				1B2060311904257500E11467 /* Japanese.srt in Resources */,
 				F3E900D01B2823910057C484 /* SampleVideo_640x360_1mb.mp4 in Resources */,
@@ -754,6 +758,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VKVideoPlayer/VKVideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VKVideoPlayer/VKVideoPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Classes/\"";
@@ -771,6 +776,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VKVideoPlayer/VKVideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VKVideoPlayer/VKVideoPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Classes/\"";
