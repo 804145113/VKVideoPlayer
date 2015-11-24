@@ -1,3 +1,4 @@
+#更新Xcode7.1 iOS7.0项目支持demo！
 # VKVideoPlayer
 
 ![VKVideoPlayer](http://engineering.viki.com/images/blog/video_player_running_man.jpg)
